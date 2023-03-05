@@ -6,11 +6,11 @@ public class credit {
         public static void main (String[] args) {
             double summCredit;
             try {
-                System.out.println("Введите сумма кредита");
+                System.out.println("Введите сумму кредита");
                 Scanner scaner1 = new Scanner(System.in);
                 summCredit = scaner1.nextDouble();
 
-                System.out.println("Введите процентную ставку по кредиту");
+                System.out.println("Введите процентную ставку");
                 Scanner scaner2 = new Scanner(System.in);
                 double stavka = scaner2.nextDouble();
 
